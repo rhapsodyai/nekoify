@@ -1,0 +1,34 @@
+{
+
+  "manifest_version": 2,
+  "name": "Nekoify",
+  "version": "1.0",
+  "description": "Adds a browser action icon to the toolbar.",
+  "homepage_url": "https://github.com/rhapsodyai/nekoify",
+  
+  "icons": {
+    "48": "icons/neko-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/neko-32.png",
+    "default_title": "Nekoify",
+    "default_popup": "popup/choose_neko.html"
+  },
+
+  "web_accessible_resources": [
+    "neko/neko1.png",
+    "neko/neko2.jpg",
+    "neko/neko3.jpg"
+  ],
+
+  "icons": {
+    "48": "icons/neko-48.png"
+  }
+
+
+}
