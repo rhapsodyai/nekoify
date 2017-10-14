@@ -1,7 +1,28 @@
+/**
+ * min（協調的）とmax（排他的）との間の乱数（整数）を返す
+ */
+function getRandomArbitrary(min, max) {
+    return Math.round(Math.random()*max) + min;
+}
+
+
 /*
 動物の名前を受け取り、対応する画像の URL を返す
 */
 function nekoNameToURL(nekoName) {
+
+  /*
+  var num = getRandomArbitrary(0,2);
+  
+  switch (num) {
+  	case 0:
+      return chrome.extension.getURL("neko/neko1.png");
+    case 1:
+      return chrome.extension.getURL("neko/neko2.jpg");
+    case 2:
+      return chrome.extension.getURL("neko/neko3.jpg");
+  }*/
+  
   switch (nekoName) {
     case "Neko1":
       return chrome.extension.getURL("neko/neko1.png");

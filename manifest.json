@@ -28,6 +28,12 @@
 
   "icons": {
     "48": "icons/neko-48.png"
+  },
+  
+  "applications": {
+    "gecko": {
+      "id": "nekoify@melissaauclaire.com"
+    }
   }
 
 
